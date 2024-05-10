@@ -386,63 +386,65 @@
     <section id="projects" class="mx-16 md:mx-40">
       <p class="text-center font-light text-xl mb-1 text-gray-400">Browse my</p>
       <h2 class="text-6xl text-center text-nowrap mb-12">Projects</h2>
-      <div class="projects-carousel mt-16 text-center">
-        <div>
-          <div class="flex justify-center mb-6">
-            <img class="w-4/6" src="./assets/spokes-Logo.png" alt="" />
-          </div>
-          <h2 class="text-5xl text-center mb-6">
-            Spokes - React Native application
-          </h2>
-          <div class="flex justify-center gap-4 mb-6">
-            <button
-              class="border-gray-400 border-2 hover:bg-gray-400 text-lg font-bold py-2 px-4 rounded-full inline-flex items-center"
-              onclick="window.open('https://github.com/adamkow/FE-Spokes')"
-            >
-              Github
-            </button>
-            <button
-              class="bg-gray-300 hover:bg-gray-400 text-black text-lg font-bold py-2 px-4 rounded-full inline-flex items-center hover:text-white"
-              onclick="window.open('https://rejamncspokes.netlify.app/SignIn')"
-            >
-              Live Demo
-            </button>
-          </div>
-        </div>
-        <div>
-          <div class="flex justify-center mb-6">
-            <img class="w-3/4" src="./assets/NC-News-Home.png" alt="" />
-          </div>
-          <h2 class="text-5xl text-center mb-6">NC News - React Web App</h2>
-          <div class="flex justify-center gap-4">
+      <div class="flex justify-center">
+        <div class="projects-carousel mt-16 text-center w-full max-w-[700px]">
+          <div>
+            <div class="flex justify-center mb-6">
+              <img class="w-4/5" src="./assets/spokes-Logo.png" alt="" />
+            </div>
+            <h2 class="text-5xl text-center mb-6">
+              Spokes - React Native application
+            </h2>
             <div class="flex justify-center gap-4 mb-6">
               <button
                 class="border-gray-400 border-2 hover:bg-gray-400 text-lg font-bold py-2 px-4 rounded-full inline-flex items-center"
-                onclick="window.open('https://github.com/Ovenator27/nc-news')"
+                onclick="window.open('https://github.com/adamkow/FE-Spokes')"
               >
                 Github
               </button>
               <button
                 class="bg-gray-300 hover:bg-gray-400 text-black text-lg font-bold py-2 px-4 rounded-full inline-flex items-center hover:text-white"
-                onclick="window.open('https://nc-news-27.netlify.app/')"
+                onclick="window.open('https://rejamncspokes.netlify.app/SignIn')"
               >
                 Live Demo
               </button>
             </div>
           </div>
-        </div>
-        <div>
-          <div class="flex justify-center mb-6">
-            <img class="w-4/5" src="./assets/image-placeholder.png" alt="" />
+          <div>
+            <div class="flex justify-center mb-6">
+              <img class="w-3/4" src="./assets/NC-News-Home.png" alt="" />
+            </div>
+            <h2 class="text-5xl text-center mb-6">NC News - React Web App</h2>
+            <div class="flex justify-center gap-4">
+              <div class="flex justify-center gap-4 mb-6">
+                <button
+                  class="border-gray-400 border-2 hover:bg-gray-400 text-lg font-bold py-2 px-4 rounded-full inline-flex items-center"
+                  onclick="window.open('https://github.com/Ovenator27/nc-news')"
+                >
+                  Github
+                </button>
+                <button
+                  class="bg-gray-300 hover:bg-gray-400 text-black text-lg font-bold py-2 px-4 rounded-full inline-flex items-center hover:text-white"
+                  onclick="window.open('https://nc-news-27.netlify.app/')"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
           </div>
-          <h2 class="text-5xl text-center mb-6">NC News RESTful API</h2>
-          <div class="flex justify-center gap-4 mb-6">
-            <button
-              class="border-gray-400 border-2 hover:bg-gray-400 text-lg font-bold py-2 px-4 rounded-full inline-flex items-center"
-              onclick="window.open('https://github.com/Ovenator27/northcoders_news_api')"
-            >
-              Github
-            </button>
+          <div>
+            <div class="flex justify-center mb-6">
+              <img class="w-4/5" src="./assets/image-placeholder.png" alt="" />
+            </div>
+            <h2 class="text-5xl text-center mb-6">NC News RESTful API</h2>
+            <div class="flex justify-center gap-4 mb-6">
+              <button
+                class="border-gray-400 border-2 hover:bg-gray-400 text-lg font-bold py-2 px-4 rounded-full inline-flex items-center"
+                onclick="window.open('https://github.com/Ovenator27/northcoders_news_api')"
+              >
+                Github
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -455,9 +457,13 @@
         >
           <div class="flex justify-center items-center gap-2 py-4">
             <img class="h-16" src="./assets/email.png" alt="Email icon" />
-            <p><a class="hover:text-gray-400 hover:underline text-xl" href="mailto:ovendej@gmail.com"
-              >ovendej@gmail.com</a
-            ></p>
+            <p>
+              <a
+                class="hover:text-gray-400 hover:underline text-xl"
+                href="mailto:ovendej@gmail.com"
+                >ovendej@gmail.com</a
+              >
+            </p>
           </div>
           <div class="flex items-center gap-2 py-4">
             <img
@@ -465,9 +471,14 @@
               src="./assets/linkedin-Logo-Black.png"
               alt="LinkedIn icon"
             />
-            <p><a class="hover:text-gray-400 hover:underline text-xl" href="https:www.linkedin.com/in/jovenden" target="_blank"
-              >linkedin.com/in/jovenden</a
-            ></p>
+            <p>
+              <a
+                class="hover:text-gray-400 hover:underline text-xl"
+                href="https:www.linkedin.com/in/jovenden"
+                target="_blank"
+                >linkedin.com/in/jovenden</a
+              >
+            </p>
           </div>
         </div>
       </div>

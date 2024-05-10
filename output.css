@@ -733,6 +733,11 @@ body {
   margin-right: 0px;
 }
 
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
 .mx-8 {
   margin-left: 2rem;
   margin-right: 2rem;
@@ -746,21 +751,6 @@ body {
 .my-auto {
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.mx-20 {
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
-
-.mx-16 {
-  margin-left: 4rem;
-  margin-right: 4rem;
 }
 
 .-mt-72 {
@@ -942,10 +932,6 @@ body {
   width: 80%;
 }
 
-.w-4\/6 {
-  width: 66.666667%;
-}
-
 .w-8 {
   width: 2rem;
 }
@@ -976,6 +962,54 @@ body {
 
 .min-w-96 {
   min-width: 24rem;
+}
+
+.max-w-2 {
+  max-width: 0.5rem;
+}
+
+.max-w-\[500px\] {
+  max-width: 500px;
+}
+
+.max-w-\[600px\] {
+  max-width: 600px;
+}
+
+.max-w-lg {
+  max-width: 32rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[30rem\] {
+  max-width: 30rem;
+}
+
+.max-w-\[60rem\] {
+  max-width: 60rem;
+}
+
+.max-w-\[40rem\] {
+  max-width: 40rem;
+}
+
+.max-w-\[700px\] {
+  max-width: 700px;
+}
+
+.max-w-\[900px\] {
+  max-width: 900px;
+}
+
+.max-w-\[800px\] {
+  max-width: 800px;
 }
 
 .flex-1 {
@@ -2852,10 +2886,6 @@ section {
   .md\:mx-40 {
     margin-left: 10rem;
     margin-right: 10rem;
-  }
-
-  .md\:flex {
-    display: flex;
   }
 
   .md\:h-5\/6 {
