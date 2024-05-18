@@ -7,7 +7,6 @@ function toggleMenu() {
 
 $(document).ready(function () {
     $('.projects-carousel').slick({
-        dots: true
     }
     );
           
