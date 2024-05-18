@@ -52,6 +52,11 @@ section {
   box-sizing: border-box;
 }
 
+#contact {
+  min-height: 40vh;
+  margin-bottom: 8rem;
+}
+
 .slick-prev,
 .slick-next {
   z-index: 2;
