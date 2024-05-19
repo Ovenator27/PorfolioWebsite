@@ -892,6 +892,14 @@ body {
   display: none;
 }
 
+.aspect-auto {
+  aspect-ratio: auto;
+}
+
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
 .h-0 {
   height: 0px;
 }
@@ -922,6 +930,15 @@ body {
 
 .h-8 {
   height: 2rem;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .w-3\/4 {
@@ -966,6 +983,10 @@ body {
 
 .max-w-\[700px\] {
   max-width: 700px;
+}
+
+.max-w-\[32rem\] {
+  max-width: 32rem;
 }
 
 .flex-1 {
